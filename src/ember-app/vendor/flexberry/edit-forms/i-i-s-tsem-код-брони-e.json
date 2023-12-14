@@ -1,7 +1,7 @@
 ﻿{
   "propertyLookup": [],
   "external": false,
-  "caption": "Код брони",
+  "caption": "Код бронирования",
   "name": "IISTsemКодБрониE",
   "className": "КодБрониE",
   "attrs": [],

@@ -31,7 +31,9 @@ namespace IIS.Tsem
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ИнфБроньE", new string[] {
             "Пассажир as \'Пассажир\'",
-            "Пассажир.ФИО as \'ФИО\'"}, Hidden=new string[] {
+            "Пассажир.ФИО as \'ФИО\'",
+            "Пассажир.КодБрони.Код as \'Код бронирования\'",
+            "Пассажир.МестоНаРейс.Место as \'Место\'"}, Hidden=new string[] {
             "Пассажир.ФИО"})]
     [MasterViewDefineAttribute("ИнфБроньE", "Пассажир", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "ФИО")]
     public class ИнфБронь : ICSSoft.STORMNET.DataObject

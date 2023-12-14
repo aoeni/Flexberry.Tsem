@@ -1,7 +1,7 @@
 import { createEnum } from 'ember-flexberry-data/utils/enum-functions';
 
 export default createEnum({
-  Первый: '',
-  Бизнес: '',
-  Эконом: ''
+  Первый: 'Первый',
+  Бизнес: 'Бизнес',
+  Эконом: 'Эконом'
 });

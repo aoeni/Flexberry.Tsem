@@ -18,7 +18,7 @@
     }
   ],
   "external": false,
-  "caption": "Посад талон",
+  "caption": "Посадочный талон",
   "name": "IISTsemПосадТалонE",
   "className": "ПосадТалонE",
   "attrs": [],

@@ -2,7 +2,7 @@
   "newForm": "i-i-s-tsem-посад-талон-e",
   "editForm": "i-i-s-tsem-посад-талон-e",
   "external": false,
-  "caption": "Посад талон",
+  "caption": "Посадочный талон",
   "name": "IISTsemПосадТалонL",
   "className": "ПосадТалонL",
   "attrs": [],

@@ -2,7 +2,7 @@
   "newForm": "i-i-s-tsem-код-брони-e",
   "editForm": "i-i-s-tsem-код-брони-e",
   "external": false,
-  "caption": "Код брони",
+  "caption": "Код бронирования",
   "name": "IISTsemКодБрониL",
   "className": "КодБрониL",
   "attrs": [],

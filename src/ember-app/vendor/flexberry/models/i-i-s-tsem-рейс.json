@@ -142,20 +142,20 @@
       "modelName": "i-i-s-tsem-рейс",
       "attrs": [
         {
-          "name": "дата",
-          "caption": "Дата",
+          "name": "куда",
+          "caption": "Куда",
           "hidden": false,
           "index": 0
         },
         {
-          "name": "выход",
-          "caption": "Выход",
+          "name": "откуда",
+          "caption": "Откуда",
           "hidden": false,
           "index": 1
         },
         {
-          "name": "конецПосад",
-          "caption": "Конец посадки",
+          "name": "дата",
+          "caption": "Дата",
           "hidden": false,
           "index": 2
         },
@@ -166,20 +166,20 @@
           "index": 3
         },
         {
-          "name": "куда",
-          "caption": "Куда",
+          "name": "начПосад",
+          "caption": "Начало посадки",
           "hidden": false,
           "index": 4
         },
         {
-          "name": "начПосад",
-          "caption": "Начало посадки",
+          "name": "конецПосад",
+          "caption": "Конец посадки",
           "hidden": false,
           "index": 5
         },
         {
-          "name": "откуда",
-          "caption": "Откуда",
+          "name": "выход",
+          "caption": "Выход",
           "hidden": false,
           "index": 6
         }

@@ -33,7 +33,50 @@
           "lookupValue": "ФИО",
           "lookupValueField": "фИО",
           "relationName": "Пассажир",
-          "belongsTo": [],
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "Пассажир.КодБрони",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "код",
+                  "caption": "Код бронирования",
+                  "hidden": false,
+                  "index": 2
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "кодБрони",
+              "relatedTo": "i-i-s-tsem-код-брони",
+              "inverse": null
+            },
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "Пассажир.МестоНаРейс",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "место",
+                  "caption": "Место",
+                  "hidden": false,
+                  "index": 3
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "местоНаРейс",
+              "relatedTo": "i-i-s-tsem-место-на-рейс",
+              "inverse": null
+            }
+          ],
           "hidden": false,
           "attrs": [
             {

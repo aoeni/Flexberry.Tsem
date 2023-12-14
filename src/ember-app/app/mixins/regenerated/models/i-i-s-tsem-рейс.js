@@ -79,18 +79,24 @@ export let defineProjections = function (modelClass) {
     откуда: attr('Откуда', { index: 6 }),
     инфБронь: hasMany('i-i-s-tsem-инф-бронь', 'Информация бронирования', {
       пассажир: belongsTo('i-i-s-tsem-пассажир', 'Пассажир', {
-        фИО: attr('ФИО', { index: 1, hidden: true })
+        фИО: attr('ФИО', { index: 1, hidden: true }),
+        кодБрони: belongsTo('i-i-s-tsem-код-брони', '', {
+          код: attr('Код бронирования', { index: 2 })
+        }, { index: -1, hidden: true }),
+        местоНаРейс: belongsTo('i-i-s-tsem-место-на-рейс', '', {
+          место: attr('Место', { index: 3 })
+        }, { index: -1, hidden: true })
       }, { index: 0, displayMemberPath: 'фИО' })
     })
   });
 
   modelClass.defineProjection('РейсL', 'i-i-s-tsem-рейс', {
-    дата: attr('Дата', { index: 0 }),
-    выход: attr('Выход', { index: 1 }),
-    конецПосад: attr('Конец посадки', { index: 2 }),
+    куда: attr('Куда', { index: 0 }),
+    откуда: attr('Откуда', { index: 1 }),
+    дата: attr('Дата', { index: 2 }),
     времяОтпр: attr('Время отправления', { index: 3 }),
-    куда: attr('Куда', { index: 4 }),
-    начПосад: attr('Начало посадки', { index: 5 }),
-    откуда: attr('Откуда', { index: 6 })
+    начПосад: attr('Начало посадки', { index: 4 }),
+    конецПосад: attr('Конец посадки', { index: 5 }),
+    выход: attr('Выход', { index: 6 })
   });
 };

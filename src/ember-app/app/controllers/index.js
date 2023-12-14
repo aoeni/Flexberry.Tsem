@@ -22,31 +22,29 @@ export default Controller.extend({
             link: 'i-i-s-tsem-место-на-рейс-l',
             caption: i18n.t('forms.application.sitemap.tsem.i-i-s-tsem-место-на-рейс-l.caption'),
             title: i18n.t('forms.application.sitemap.tsem.i-i-s-tsem-место-на-рейс-l.title'),
-            icon: 'archive',
+            icon: 'building',
             children: null
           }, {
             link: 'i-i-s-tsem-посад-талон-l',
             caption: i18n.t('forms.application.sitemap.tsem.i-i-s-tsem-посад-талон-l.caption'),
             title: i18n.t('forms.application.sitemap.tsem.i-i-s-tsem-посад-талон-l.title'),
-            icon: 'briefcase',
             children: null
           }, {
             link: 'i-i-s-tsem-код-брони-l',
             caption: i18n.t('forms.application.sitemap.tsem.i-i-s-tsem-код-брони-l.caption'),
             title: i18n.t('forms.application.sitemap.tsem.i-i-s-tsem-код-брони-l.title'),
-            icon: 'tasks',
             children: null
           }, {
             link: 'i-i-s-tsem-рейс-l',
             caption: i18n.t('forms.application.sitemap.tsem.i-i-s-tsem-рейс-l.caption'),
             title: i18n.t('forms.application.sitemap.tsem.i-i-s-tsem-рейс-l.title'),
-            icon: 'folder',
+            icon: 'address card',
             children: null
           }, {
             link: 'i-i-s-tsem-пассажир-l',
             caption: i18n.t('forms.application.sitemap.tsem.i-i-s-tsem-пассажир-l.caption'),
             title: i18n.t('forms.application.sitemap.tsem.i-i-s-tsem-пассажир-l.title'),
-            icon: 'tasks',
+            icon: 'archive',
             children: null
           }]
         }

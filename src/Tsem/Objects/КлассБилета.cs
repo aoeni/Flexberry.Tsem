@@ -12,6 +12,7 @@ namespace IIS.Tsem
 {
     using System;
     using System.Xml;
+    using ICSSoft.STORMNET;
     
     
     // *** Start programmer edit section *** (Using statements)
@@ -31,16 +32,19 @@ namespace IIS.Tsem
         // *** Start programmer edit section *** (КлассБилета.Первый CustomAttributes)
 
         // *** End programmer edit section *** (КлассБилета.Первый CustomAttributes)
+        [Caption("Первый")]
         Первый,
         
         // *** Start programmer edit section *** (КлассБилета.Бизнес CustomAttributes)
 
         // *** End programmer edit section *** (КлассБилета.Бизнес CustomAttributes)
+        [Caption("Бизнес")]
         Бизнес,
         
         // *** Start programmer edit section *** (КлассБилета.Эконом CustomAttributes)
 
         // *** End programmer edit section *** (КлассБилета.Эконом CustomAttributes)
+        [Caption("Эконом")]
         Эконом,
     }
 }
