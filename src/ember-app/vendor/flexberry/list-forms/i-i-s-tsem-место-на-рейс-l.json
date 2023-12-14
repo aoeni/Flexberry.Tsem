@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-tsem-место-на-рейс-e",
+  "editForm": "i-i-s-tsem-место-на-рейс-e",
+  "external": false,
+  "caption": "Место на рейс",
+  "name": "IISTsemМестоНаРейсL",
+  "className": "МестоНаРейсL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-tsem-место-на-рейс",
+      "modelProjection": "МестоНаРейсL"
+    }
+  ]
+}

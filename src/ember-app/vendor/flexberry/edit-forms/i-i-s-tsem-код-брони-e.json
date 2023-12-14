@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Код брони",
+  "name": "IISTsemКодБрониE",
+  "className": "КодБрониE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-tsem-код-брони",
+      "modelProjection": "КодБрониE"
+    }
+  ]
+}

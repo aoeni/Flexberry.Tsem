@@ -1,0 +1,50 @@
+﻿{
+  "applicationCaption": "Tsem",
+  "applicationTitle": "Tsem",
+  "items": [
+    {
+      "link": null,
+      "menuName": "tsem",
+      "caption": "Tsem",
+      "title": "Tsem",
+      "children": [
+        {
+          "link": "i-i-s-tsem-место-на-рейс-l",
+          "menuName": null,
+          "caption": "Место на рейс",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-tsem-посад-талон-l",
+          "menuName": null,
+          "caption": "Посад талон",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-tsem-код-брони-l",
+          "menuName": null,
+          "caption": "Код брони",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-tsem-рейс-l",
+          "menuName": null,
+          "caption": "Рейс",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-tsem-пассажир-l",
+          "menuName": null,
+          "caption": "Пассажир",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}
