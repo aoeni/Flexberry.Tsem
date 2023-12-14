@@ -71,12 +71,12 @@ export let ValidationRules = {
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('РейсE', 'i-i-s-tsem-рейс', {
     дата: attr('Дата', { index: 0 }),
-    выход: attr('Выход', { index: 1 }),
-    конецПосад: attr('Конец посадки', { index: 2 }),
+    куда: attr('Куда', { index: 1 }),
+    откуда: attr('Откуда', { index: 2 }),
     времяОтпр: attr('Время отправления', { index: 3 }),
-    куда: attr('Куда', { index: 4 }),
-    начПосад: attr('Начало посадки', { index: 5 }),
-    откуда: attr('Откуда', { index: 6 }),
+    начПосад: attr('Начало посадки', { index: 4 }),
+    конецПосад: attr('Конец посадки', { index: 5 }),
+    выход: attr('Выход', { index: 6 }),
     инфБронь: hasMany('i-i-s-tsem-инф-бронь', 'Информация бронирования', {
       пассажир: belongsTo('i-i-s-tsem-пассажир', 'Пассажир', {
         фИО: attr('ФИО', { index: 1, hidden: true }),

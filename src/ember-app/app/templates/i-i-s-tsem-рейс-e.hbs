@@ -38,22 +38,22 @@
   <div class="field">
     {{flexberry-field
       readonly=readonly
-      value=model.выход
-      class=(if (v-get validationModel "выход" "isInvalid") "error")
-      label=(t "forms.i-i-s-tsem-рейс-e.выход-caption")
-      data-test-i-i-s-tsem-рейс-e-выход=true
+      value=model.куда
+      class=(if (v-get validationModel "куда" "isInvalid") "error")
+      label=(t "forms.i-i-s-tsem-рейс-e.куда-caption")
+      data-test-i-i-s-tsem-рейс-e-куда=true
     }}
-    {{flexberry-validationmessage error=(v-get validationModel "выход" "message")}}
+    {{flexberry-validationmessage error=(v-get validationModel "куда" "message")}}
   </div>
   <div class="field">
     {{flexberry-field
       readonly=readonly
-      value=model.конецПосад
-      class=(if (v-get validationModel "конецПосад" "isInvalid") "error")
-      label=(t "forms.i-i-s-tsem-рейс-e.конецПосад-caption")
-      data-test-i-i-s-tsem-рейс-e-конецПосад=true
+      value=model.откуда
+      class=(if (v-get validationModel "откуда" "isInvalid") "error")
+      label=(t "forms.i-i-s-tsem-рейс-e.откуда-caption")
+      data-test-i-i-s-tsem-рейс-e-откуда=true
     }}
-    {{flexberry-validationmessage error=(v-get validationModel "конецПосад" "message")}}
+    {{flexberry-validationmessage error=(v-get validationModel "откуда" "message")}}
   </div>
   <div class="field">
     {{flexberry-field
@@ -68,16 +68,6 @@
   <div class="field">
     {{flexberry-field
       readonly=readonly
-      value=model.куда
-      class=(if (v-get validationModel "куда" "isInvalid") "error")
-      label=(t "forms.i-i-s-tsem-рейс-e.куда-caption")
-      data-test-i-i-s-tsem-рейс-e-куда=true
-    }}
-    {{flexberry-validationmessage error=(v-get validationModel "куда" "message")}}
-  </div>
-  <div class="field">
-    {{flexberry-field
-      readonly=readonly
       value=model.начПосад
       class=(if (v-get validationModel "начПосад" "isInvalid") "error")
       label=(t "forms.i-i-s-tsem-рейс-e.начПосад-caption")
@@ -88,12 +78,22 @@
   <div class="field">
     {{flexberry-field
       readonly=readonly
-      value=model.откуда
-      class=(if (v-get validationModel "откуда" "isInvalid") "error")
-      label=(t "forms.i-i-s-tsem-рейс-e.откуда-caption")
-      data-test-i-i-s-tsem-рейс-e-откуда=true
+      value=model.конецПосад
+      class=(if (v-get validationModel "конецПосад" "isInvalid") "error")
+      label=(t "forms.i-i-s-tsem-рейс-e.конецПосад-caption")
+      data-test-i-i-s-tsem-рейс-e-конецПосад=true
     }}
-    {{flexberry-validationmessage error=(v-get validationModel "откуда" "message")}}
+    {{flexberry-validationmessage error=(v-get validationModel "конецПосад" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.выход
+      class=(if (v-get validationModel "выход" "isInvalid") "error")
+      label=(t "forms.i-i-s-tsem-рейс-e.выход-caption")
+      data-test-i-i-s-tsem-рейс-e-выход=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "выход" "message")}}
   </div>
   <div class="field">
     <label>{{t "forms.i-i-s-tsem-рейс-e.инфБронь-caption"}}</label>
